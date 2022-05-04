@@ -13,6 +13,12 @@
 		66263984282068B000B9A177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66263982282068B000B9A177 /* Main.storyboard */; };
 		66263986282068B200B9A177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66263985282068B200B9A177 /* Assets.xcassets */; };
 		66263989282068B200B9A177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66263987282068B200B9A177 /* LaunchScreen.storyboard */; };
+		6626399128209B0800B9A177 /* LinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6626399028209B0800B9A177 /* LinkViewController.swift */; };
+		664972BC2820B742007BFF96 /* FortuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664972BB2820B742007BFF96 /* FortuneViewController.swift */; };
+		664972BE28221122007BFF96 /* HamonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664972BD28221122007BFF96 /* HamonViewController.swift */; };
+		664972C02822D4EE007BFF96 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664972BF2822D4EE007BFF96 /* QuizViewController.swift */; };
+		664972C2282315B6007BFF96 /* SecretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664972C1282315B6007BFF96 /* SecretViewController.swift */; };
+		664972C428232391007BFF96 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664972C328232391007BFF96 /* AnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		66263985282068B200B9A177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66263988282068B200B9A177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6626398A282068B200B9A177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6626399028209B0800B9A177 /* LinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewController.swift; sourceTree = "<group>"; };
+		664972BB2820B742007BFF96 /* FortuneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneViewController.swift; sourceTree = "<group>"; };
+		664972BD28221122007BFF96 /* HamonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamonViewController.swift; sourceTree = "<group>"; };
+		664972BF2822D4EE007BFF96 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		664972C1282315B6007BFF96 /* SecretViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretViewController.swift; sourceTree = "<group>"; };
+		664972C328232391007BFF96 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,10 @@
 		66263970282068B000B9A177 = {
 			isa = PBXGroup;
 			children = (
+				664972C328232391007BFF96 /* AnimationViewController.swift */,
+				664972C1282315B6007BFF96 /* SecretViewController.swift */,
+				664972BD28221122007BFF96 /* HamonViewController.swift */,
+				664972BB2820B742007BFF96 /* FortuneViewController.swift */,
 				6626397B282068B000B9A177 /* HomerFinalProgram */,
 				6626397A282068B000B9A177 /* Products */,
 			);
@@ -60,6 +76,8 @@
 				6626397E282068B000B9A177 /* SceneDelegate.swift */,
 				66263980282068B000B9A177 /* ViewController.swift */,
 				66263982282068B000B9A177 /* Main.storyboard */,
+				664972BF2822D4EE007BFF96 /* QuizViewController.swift */,
+				6626399028209B0800B9A177 /* LinkViewController.swift */,
 				66263985282068B200B9A177 /* Assets.xcassets */,
 				66263987282068B200B9A177 /* LaunchScreen.storyboard */,
 				6626398A282068B200B9A177 /* Info.plist */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6626399128209B0800B9A177 /* LinkViewController.swift in Sources */,
+				664972C02822D4EE007BFF96 /* QuizViewController.swift in Sources */,
+				664972C2282315B6007BFF96 /* SecretViewController.swift in Sources */,
 				66263981282068B000B9A177 /* ViewController.swift in Sources */,
+				664972BC2820B742007BFF96 /* FortuneViewController.swift in Sources */,
 				6626397D282068B000B9A177 /* AppDelegate.swift in Sources */,
+				664972C428232391007BFF96 /* AnimationViewController.swift in Sources */,
+				664972BE28221122007BFF96 /* HamonViewController.swift in Sources */,
 				6626397F282068B000B9A177 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
