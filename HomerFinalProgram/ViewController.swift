@@ -19,7 +19,11 @@ class ViewController: UIViewController {
         
         
     }
-
+    
+    @IBAction func secretButton(_ sender: Any) {
+        performSegue(withIdentifier: "secretSegue", sender: self)
+    }
+    
 
 }
 

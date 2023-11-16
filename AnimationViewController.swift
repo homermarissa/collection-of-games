@@ -8,6 +8,8 @@
 import UIKit
 
 class AnimationViewController: UIViewController {
+    
+    
 
     @IBOutlet weak var bubbleView: UIImageView!
     
@@ -44,6 +46,10 @@ class AnimationViewController: UIViewController {
     
     @IBAction func stopBubbleAnimation(_ sender: Any) {
         bubbleView.stopAnimating()
+    }
+    
+    @IBAction func nextButton(_ sender: Any) {
+        performSegue(withIdentifier: "endPageSegue", sender: self)
     }
     
     
